@@ -17,9 +17,8 @@ comments: true
 <div class="col-md-4">
 
 <div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
+<h5>Find me</h5>
 
-<p>Thank you for your support!. There will be a donation link soon. </p>
 <p>You can connect with me on linkedin.</p>
 <p><a target="_blank" href="https://www.linkedin.com/in/quang-hoang-hao-832063117">Quang Hoang-Hao <i class="fab fa-linkedin"></i></a></p>
 <p><a target="_blank" href="https://github.com/HQhalo">HQhalo <i class="fab fa-github"></i></a></p>
