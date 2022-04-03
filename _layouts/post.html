@@ -33,7 +33,7 @@ post_class: post-template
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
                         <a target="_blank" class="link-dark" href="{{site.baseurl}}/about">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-                        <span class="author-description">{{ author.description }}</span>
+                        <div><span class="author-description">{{ author.description }}</span></div>
                     </div>
                 </div>
                 {% endif %}
@@ -64,10 +64,10 @@ post_class: post-template
             <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
-                {% if page.toc %}
-                    {% if page.beforetoc %}
+                {% if page.beforetoc %}
                         <p><em>{{page.beforetoc}}</em></p>
-                    {% endif %}
+                {% endif %}
+                {% if page.toc %}
                     <div class="toc mt-4 mb-4 lead">
                         <h3 class="font-weight-bold">Summary</h3>
                         {% include toc.html html=content %}
@@ -146,7 +146,7 @@ post_class: post-template
     <div class="container">
         <div id="comments" class="row justify-content-center mb-5">
             <div class="col-md-8">
-                {% include disqus.html %}
+                {% include facebook.html %}
             </div>
         </div>
     </div>
