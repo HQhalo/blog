@@ -1,13 +1,17 @@
 ---
+date: 2022-04-01T00:16:05.000Z
 layout: post
 title: "Blockchain không thần thánh như chúng ta tưởng."
+subtitle: 'Bài viết dựa trên hiểu biết và góc nhìn cá nhân của tác giả, mọi ý kiến đóng góp có thể để lại bên dưới.'
 author: quang
-categories: [review, chem-gio]
-image: assets/images/blockchain-break.jpeg
-beforetoc: "Bài viết dựa trên hiểu biết và góc nhìn cá nhân của tác giả, mọi ý kiến đóng góp có thể để lại bên dưới."
-featured: true
-hidden: true
-comments: true
+category: blog
+image: https://res.cloudinary.com/dx9lmq9ab/image/upload/v1649348421/blockchain-break_dp8kjl.jpg
+optimized_image: https://res.cloudinary.com/dx9lmq9ab/image/upload/c_scale,w_380/v1649348421/blockchain-break_dp8kjl.jpg
+tags:
+  - blockchain
+  - blog
+author: quang
+paginate: true
 ---
 
 Trào lưu Blockchain đang rất rầm rộ, nó là một thuật ngữ mà bạn có thể dùng để tăng 200% độ khủng khiếp của một dự án. Ấy vậy, nói Blockchain là một công nghệ đỉnh cao, là tương lai của nhân loại thì tôi nghĩ không phải, ít nhất là cho tới hiện tại. Điểm yếu của nó không xuất phát từ yếu tố công nghệ mà là vấn đề về vận hành.
@@ -22,7 +26,7 @@ Rất đơn giản phải không, blockchain chuyển việc xác thực từ t�
 
 #### Các anh thợ mỏ cần cù
 
-![miner]({{ site.baseurl }}/assets/images/miner.jpg)
+![miner](https://res.cloudinary.com/dx9lmq9ab/image/upload/v1649348420/miner_dkgybj.jpg)
 
 Đúng vậy, câu trả lời là các anh thở mỏ cần cù. Các anh là những thanh niên lực lưỡng cơ bắp cuồn cuộn, công việc chính của các anh phải làm là "chép sổ"(xác thực giao dịch), và nhận tiền công cho việc này. Mà khoan, việc chép sổ này dễ quá cần gì thanh niên lực lưỡng, thế là rất nhiều người già trẻ gái trai hò nhau đi chép sổ kiếm tiền. Công việc chép sổ quá là dễ luôn, ai cũng làm được, mà nhiều người làm quá thì trả tiền cho họ như thế nào đây? Trả nhiều tiền quá thì tốn kém, ít quá thì chả ai làm. Giải pháp là phải làm gì đó để tăng độ khó cho game lên, để chỉ những anh thợ cơ bắp mới làm được, và họ sẽ được trả công đủ tốt để chấp nhận công việc. Vậy là một ý tưởng "thiên tài" được đưa ra: Bắt các thợ mỏ vừa "hít đất" vừa chép sổ.
 
@@ -40,12 +44,12 @@ Còn quá trình đào mỏ sẽ qua các bước như này:
 
 Vậy công việc mà các trâu cày thực hiện hằng ngày, tốn cả tấn điện, làm độn giá GPU lên cao chót vót lại là một quá trình vô nghĩa, tốn kém và không mang lại bất cứ một giá trị gì cho nhân loại. Mục đích chính chỉ để tăng độ khó cho việc xác thực giao dịch(ghi sổ). Biết là vô nghĩa nhưng vẫn phải cắn răng mà làm thôi, vì nếu không vận hành như thế thì lấy ai mà "chép sổ" cho.
 
-Đó là điểm yếu chí mạng của blockchain, vấn đề về vận hành. Hiện nay có lẽ nhiều giả pháp đã được đưa ra, mà làm được tới đâu thì nói thật tôi cũng không biết, có lẽ thêm vài nẵm nữa một ý tưởng "thiên tài" nào đó sẽ lại được đề xuất. Còn hiện tại thì với những Bitcoin hay Ethereum thì vấn đề vẫn còn đó.
+Đó là điểm yếu chí mạng của blockchain, vấn đề về vận hành. Hiện nay có lẽ nhiều giải pháp đã được đưa ra, mà làm được tới đâu thì nói thật tôi cũng không biết, có lẽ thêm vài năm nữa một ý tưởng "thiên tài" nào đó sẽ lại được đề xuất. Còn hiện tại thì với những Bitcoin hay Ethereum thì vấn đề vẫn còn đó.
 
 #### Ý tưởng thiên tài
 
 <figure>
-    <img src="{{ site.baseurl }}/assets/images/word-image-71.jpeg"
+    <img src="https://res.cloudinary.com/dx9lmq9ab/image/upload/v1649348421/word-image-71_zuxyyb.jpg"
          alt="Axie Infinity"
          style="display: block;margin: 0 auto;">
     <figcaption style="text-align:center;"><small>Nhân vật trong game Axie Infinity.</small></figcaption>

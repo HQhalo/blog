@@ -1,60 +1,92 @@
-# Site
-name: "Hao Quang"
-title: "Hao Quang"
-description: "Software Engineer, BackEnd, AI and more"
-logo: "assets/images/logo.png"
-favicon: "assets/images/logo.png"
-url: http://quang.tech
-google_analytics: "G-E6NL7F9JNP"
-disqus: "demowebsite"
-include: ["_pages"]
-permalink: /:title/
+# Site Settings
+name: Halo
+title: Halo | A blog for you
+description: Software Engineer, BackEnd, AI and more
+tags:
+  - blog
+  - software
+  - backend
+  - ai
+  - blockchain
+  - code
+  - golang
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
 
-# Authors
-authors:
-  quang:
-    name: Hoang Hao Quang
-    display_name: Hoang Hao Quang
-    # gravatar:
-    avatar: assets/images/avatar.png
-    email: haoquangms@gmail.com
-    description: "I'm an engineer that means i solve problems and share it!"
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: HQhalo
+facebook_username: haoquangms
+linkedin_username: quang-hoang-hao-832063117
+
+# Posts Settings
+show_time_bar: false
+show_modal_on_exit: false
+show_modal_on_finish_post: false
+two_columns_layout: true
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+google_analytics: "G-E6NL7F9JNP"
+language: "vi"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: true
+use_logo: false
+
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: false
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+# SASS
+sass:
+  style: compressed
+
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
+  - jekyll-paginate-content
 
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: "/category/:name/"
-
-# Pagination
-paginate: 6
-paginate_path: /page:num/
-
-# Other
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
-
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
-
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
-
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+# Exclude my node related stuff
+exclude:
+  [
+    "package.json",
+    "package-lock.json",
+    "src",
+    "node_modules",
+    "initpost.sh",
+    "Gemfile",
+    "Gemfile.lock",
+    "gulpfile.js",
+    "README.md",
+  ]
